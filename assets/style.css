@@ -1,0 +1,22 @@
+.contentWrapper{
+	width: 960px;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+}
+
+.tealBkgd{
+	background-color: #4aaaa5;
+	height: 100%;
+	color: white;
+}
+
+.name{
+	font-size: 300%;
+}
+
+.iconContainer{
+	width: 150px;
+	height: 150px;
+}

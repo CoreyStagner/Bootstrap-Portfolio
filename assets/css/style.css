@@ -1,0 +1,41 @@
+html{
+	height: 100%;
+}
+
+body{
+	background-image: url("../images/background.png");
+}
+
+div{
+	border: 1px black solid;
+}
+
+#bioDiv{
+	align-items: center;
+}
+
+.headshot{
+	border: 10px black solid;
+	border-radius: 50%;
+
+}
+
+.icon{
+	width: 40px;
+	height: 40px;
+}
+
+
+.btn-white{
+	color: white; 
+}
+
+.jumbotron{
+	margin-top: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.section-heading {
+	
+}
