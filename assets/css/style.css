@@ -14,6 +14,10 @@ div{
 	align-items: center;
 }
 
+#jumbotron{
+	width: 100%;
+}
+
 .headshot{
 	border: 10px black solid;
 	border-radius: 50%;
