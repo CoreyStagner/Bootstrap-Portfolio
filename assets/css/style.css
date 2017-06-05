@@ -4,6 +4,7 @@ html{
 
 body{
 	background-image: url("../images/background.png");
+	height: 100%;
 }
 
 .wrapper{
@@ -69,6 +70,7 @@ body{
 
 .push{
 	height: 80px;
+	margin-top: 20px;
 }
 
 .footer{
