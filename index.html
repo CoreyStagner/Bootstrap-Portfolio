@@ -8,31 +8,33 @@
 		<title>Corey Stagner - Portfolio</title>
 
 		<!-- External Style Sheets -->
-		<!-- Bootstsrap CSS -->
-		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<!-- Bootstsrap CSS/JS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="assets/css/style.css">
 
-		<!-- Custom Fonts -->
-		
+		<!-- Custom Fonts -->	
 	</head>
-
 
 	<body>
 		<div class="wrapper">
 			<!-- Navigation Bar -->
-			<nav id="mainNav" class="navbar navbar-inverse navbar-custom navbar-fixed-top">
+			<nav class="navbar navbar-inverse navbar-custom navbar-fixed-top">
 				<div class="container-fixed">
 					<div class="container">
-						<div class="navbar-header page-scroll">
-							<button type="button" class="navbar-toggle btn-white" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>                        
 							</button>
 							<a class="navbar-brand page-scroll" href="#page-top">Corey Stagner</a>
 						</div>
 
-						<div class="collapse navbar-collapse">
+						<div class="collapse navbar-collapse" id="mainNav">
 							<ul class="nav navbar-nav navbar-right">
 								<li class="hidden">
 									<a href="#page-top"></a>
@@ -57,56 +59,56 @@
 			<div class="container">	
 				
 				<div>
-				<!-- Jumbotron -->
-				<section>
-					<div class="jumbotron">
-						<h1 class="display-3">Hello, </h1>
-						<p class="lead">My name is Corey Stagner. I am learning web development at University of North Carolina through Trilogy.</p>
-						<hr class="my-4">
-						<p>I will be updating my portfolio with all of the new projects as I move forward. Please look at my portfolio to see if there is anything new. Also if you see anything that you like please feel free to connect with me.</p>
-					</div>
-				</section>
-
-
-			<!-- Bio -->
-			<section id="team">
-				<div class="container-fluid">
-					<!-- Bio Header Row -->
-					<div class="row">
-						<div class="col-md-12 text-center">
-							<h2 class="section-heading">Meet Corey Stagner</h2>
+					<!-- Jumbotron -->
+					<section>
+						<div class="jumbotron">
+							<h1 class="display-3">Hello, </h1>
+							<p class="lead">My name is Corey Stagner. I am learning web development at University of North Carolina through Trilogy.</p>
+							<hr class="my-4">
+							<p>I will be updating my portfolio with all of the new projects as I move forward. Please look at my portfolio to see if there is anything new. Also if you see anything that you like please feel free to connect with me.</p>
 						</div>
-					</div>
-					<!-- Bio Info Row -->
-					<div class="row">
-						<div class="col-md-4 text-center">
-							<img class="img-responsive img-circle center-block" style="height: 200px" src="assets/images/headshot.png">
-							<h4>Corey Stagner</h4>
-							<p class="text-muted">Developer</p>
-							<ul class="list-inline social-buttons">
-								<li>
-									<a href="https://www.linkedin.com/in/corey-stagner-a3231694/"><img class="icon" src="assets/images/linkedIn.png" alt="My Linked In Profile"></a>
-								</li>
-								<li>
-									<a href="https://github.com/CoreyStagner"><img class="icon" src="assets/images/github.png" alt="My GitHub Profile"></a>	
-								</li>
-								<li>
-									<a href="https://stackexchange.com/users/10807766/corey-stagner"><img class="icon" src="assets/images/stackOverflow.png" alt="My Stack Overflow Profile"></a>
-								</li>
-							</ul>
+					</section>
+
+
+					<!-- Bio -->
+					<section id="team">
+						<div class="container-fluid">
+							<!-- Bio Header Row -->
+							<div class="row row-heading">
+								<div class="col-md-12 text-center">
+									<h2 class="section-heading">Meet Corey Stagner</h2>
+								</div>
+							</div>
+							<!-- Bio Info Row -->
+							<div class="row div-bg-white">
+								<div class="col-md-4 text-center">
+									<img class="img-responsive img-circle center-block" style="height: 200px" alt="Corey Stagner" src="assets/images/headshot.png">
+									<h4>Corey Stagner</h4>
+									<p class="text-muted">Developer</p>
+									<ul class="list-inline social-buttons">
+										<li>
+											<a href="https://www.linkedin.com/in/corey-stagner-a3231694/"><img class="icon" src="assets/images/linkedIn.png" alt="My Linked In Profile"></a>
+										</li>
+										<li>
+											<a href="https://github.com/CoreyStagner"><img class="icon" src="assets/images/github.png" alt="My GitHub Profile"></a>	
+										</li>
+										<li>
+											<a href="https://stackexchange.com/users/10807766/corey-stagner"><img class="icon" src="assets/images/stackOverflow.png" alt="My Stack Overflow Profile"></a>
+										</li>
+									</ul>
+								</div>
+								<div class="col-md-8">
+									<p class="bio-text">My name is Corey Stagner. I have lived in Charlotte, North Carolina for a year and a half. I work in the AVL industry and I am excited to be able to create an interface to control components of Audio, Video, and Lighting using the internet, allowing someone who has little programming experience, to create a unique and repeatable atmosphere for the customers at the clients venues.</p>
+
+									<br>
+
+									<p class="bio-text">I am ready to learn everything I can here at UNC through Trilogy and intend on being a sponge soaking up everything that I can get access to. Just after my first week, I have already learned so much. I am looking forward to see what our next classes will teach all of us.</p>
+								</div>
+							</div>
 						</div>
-						<div class="col-md-8">
-							<p>My name is Corey Stagner. I have lived in Charlotte, North Carolina for a year and a half. I work in the AVL industry and I am excited to be able to create an interface to control components of Audio, Video, and Lighting using the internet, allowing someone who has little programming experience, to create a unique and repeatable atmosphere for the customers at the clients venues.</p>
-
-							<br>
-
-							<p>I am ready to learn everything I can here at UNC through Trilogy and intend on being a sponge soaking up everything that I can get access to. Just after my first week, I have already learned so much. I am looking forward to see what our next classes will teach all of us.
-							</p>								
-						</div>
-
-					</div>
+					</section>
 				</div>
-			</section>
+			</div>
 		</div>
 	</body>
 </html>

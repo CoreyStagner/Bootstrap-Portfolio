@@ -8,9 +8,11 @@
 		<title>Corey Stagner - Portfolio</title>
 
 		<!-- External Style Sheets -->
-		<!-- Bootstsrap CSS -->
-		<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-		
+		<!-- Bootstsrap CSS/JS -->
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 		<!-- Theme CSS -->
 		<link rel="stylesheet" href="assets/css/style.css">
 
@@ -22,17 +24,19 @@
 	<body>
 		<div class="wrapper">
 			<!-- Navigation Bar -->
-			<nav id="mainNav" class="navbar navbar-inverse navbar-custom navbar-fixed-top">
+			<nav class="navbar navbar-inverse navbar-custom navbar-fixed-top">
 				<div class="container-fixed">
 					<div class="container">
-						<div class="navbar-header page-scroll">
-							<button type="button" class="navbar-toggle btn-white" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-								<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>                        
 							</button>
 							<a class="navbar-brand page-scroll" href="#page-top">Corey Stagner</a>
 						</div>
 
-						<div class="collapse navbar-collapse">
+						<div class="collapse navbar-collapse" id="mainNav">
 							<ul class="nav navbar-nav navbar-right">
 								<li class="hidden">
 									<a href="#page-top"></a>
@@ -57,81 +61,84 @@
 			<div class="container">	
 				
 				<div>
-				<!-- Jumbotron -->
-				<section>
-					<div class="jumbotron">
-						<h1 class="display-3">Hello, </h1>
-						<p class="lead">My name is Corey Stagner. I am learning web development at University of North Carolina through Trilogy.</p>
-						<hr class="my-4">
-						<p>I will be updating my portfolio with all of the new projects as I move forward. Please look at my portfolio to see if there is anything new. Also if you see anything that you like please feel free to connect with me.</p>
+					<!-- Jumbotron -->
+					<section>
+						<div class="jumbotron">
+							<h1 class="display-3">Hello, </h1>
+							<p class="lead">My name is Corey Stagner. I am learning web development at University of North Carolina through Trilogy.</p>
+							<hr class="my-4">
+							<p>I will be updating my portfolio with all of the new projects as I move forward. Please look at my portfolio to see if there is anything new. Also if you see anything that you like please feel free to connect with me.</p>
+						</div>
+					</section>
+				</div>
+				
+				<!-- Completed Projects -->
+				<section id="conpletedProjects">
+					<div class="container-fluid">
+						<!-- Project Header Row -->
+						<div class="row row-heading">
+							<div class="col-lg-12 text-center">
+								<h2 class="section-heading">See My Projects</h2>
+							</div>
+						</div>
+						<div class="row div-bg-white border">
+							<p style="text-align: center">The only thing that I have created so far is this portolio using bootstrap.</p>
+						</div>
 					</div>
 				</section>
-			
-			<!-- Completed Projects -->
-			<section id="conpletedProjects">
-				<div class="container-fluid">
-					<!-- Project Header Row -->
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<h2 class="section-heading">See My Projects</h2>
-						</div>
-					</div>
-					<!-- Team Member Row -->
-					<div class="row">
-						<div class="col-lg"></div>
-						<div class="col-lg text-center">
-							<img class="img-responsive img-circle center-block" style="height: 200px" src="assets/images/headshot.png">
-							<h4>Corey Stagner</h4>
-							<p class="text-muted">Developer</p>
-							<ul class="list-inline social-buttons">
-								<li>
-									<a href="https://www.linkedin.com/in/corey-stagner-a3231694/"><img class="icon" src="assets/images/linkedIn.png" alt="My Linked In Profile"></a>
-								</li>
-								<li>
-									<a href="https://github.com/CoreyStagner"><img class="icon" src="assets/images/github.png" alt="My GitHub Profile"></a>	
-								</li>
-								<li>
-									<a href="https://stackexchange.com/users/10807766/corey-stagner"><img class="icon" src="assets/images/stackOverflow.png" alt="My Stack Overflow Profile"></a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg"></div>
-					</div>
-				</div>
-			</section>
 
-			<!-- Projects In Progress -->
-			<section id="projectsInProgress">
-				<div class="container-fluid">
-					<!-- Team Header Row -->
-					<div class="row">
-						<div class="col-lg-12 text-center">
-							<h2 class="section-heading">Under Construction</h2>
+				<!-- Projects In Progress -->
+				<section id="projectsInProgress">
+					<div class="container-fluid">
+						<!-- Team Header Row -->
+						<div class="row row-heading">
+							<div class="col-lg-12 text-center">
+								<h2 class="section-heading">Under Construction</h2>
+							</div>
+						</div>
+						<div class="row div-bg-white border">
+							<div class="col-md-4">
+								<a href="#"><img class="portImage" src="assets/images/hangman.png" alt="hangman"></a>
+							</div>
+							<div class="col-md-8">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, blanditiis, dicta. Eum, voluptas reprehenderit sequi fuga! Reprehenderit cupiditate amet, at quisquam quidem unde autem earum, atque sit consequuntur corporis maxime!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorum, ipsam veniam velit laudantium, exercitationem ea, deserunt eligendi ut dolor repellat tenetur porro, facere dolorem provident natus vel minus cupiditate?
+							</div>
+						</div>
+						<div class="row div-bg-white border">
+							<div class="col-md-8">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, blanditiis, dicta. Eum, voluptas reprehenderit sequi fuga! Reprehenderit cupiditate amet, at quisquam quidem unde autem earum, atque sit consequuntur corporis maxime!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorum, ipsam veniam velit laudantium, exercitationem ea, deserunt eligendi ut dolor repellat tenetur porro, facere dolorem provident natus vel minus cupiditate?
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img class="portImage fall-right" src="assets/images/rpgGame.png" alt="Role Playing Game"></a>
+							</div>
+						</div>
+						<div class="row div-bg-white border">
+							<div class="col-md-4">
+								<a href="#"><img class="portImage" src="assets/images/trivia.png" alt="Trivia"></a>
+							</div>
+							<div class="col-md-8">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, blanditiis, dicta. Eum, voluptas reprehenderit sequi fuga! Reprehenderit cupiditate amet, at quisquam quidem unde autem earum, atque sit consequuntur corporis maxime!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorum, ipsam veniam velit laudantium, exercitationem ea, deserunt eligendi ut dolor repellat tenetur porro, facere dolorem provident natus vel minus cupiditate?
+							</div>
+						</div>
+						<div class="row div-bg-white border">
+							<div class="col-md-8">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, blanditiis, dicta. Eum, voluptas reprehenderit sequi fuga! Reprehenderit cupiditate amet, at quisquam quidem unde autem earum, atque sit consequuntur corporis maxime!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorum, ipsam veniam velit laudantium, exercitationem ea, deserunt eligendi ut dolor repellat tenetur porro, facere dolorem provident natus vel minus cupiditate?
+							</div>
+							<div class="col-md-4">
+								<a href="#"><img class="portImage fall-right" src="assets/images/rutgersInfoWidget.png" alt="Rutgers Info Widget"></a>
+							</div>
+						</div>
+						<div class="row div-bg-white border">
+							<div class="col-md-4">
+								<a href="#"><img class="portImage" src="assets/images/rockPaperScissors.png" alt="Rock Paper Scissors"></a>
+							</div>
+							<div class="col-md-8">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, blanditiis, dicta. Eum, voluptas reprehenderit sequi fuga! Reprehenderit cupiditate amet, at quisquam quidem unde autem earum, atque sit consequuntur corporis maxime!Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati dolorum, ipsam veniam velit laudantium, exercitationem ea, deserunt eligendi ut dolor repellat tenetur porro, facere dolorem provident natus vel minus cupiditate?
+							</div>
 						</div>
 					</div>
-					<!-- Team Member Row -->
-					<div class="row">
-						<div class="col-lg"></div>
-						<div class="col-lg text-center">
-							<img class="img-responsive img-circle center-block" style="height: 200px" src="assets/images/headshot.png">
-							<h4>Corey Stagner</h4>
-							<p class="text-muted">Developer</p>
-							<ul class="list-inline social-buttons">
-								<li>
-									<a href="https://www.linkedin.com/in/corey-stagner-a3231694/"><img class="icon" src="assets/images/linkedIn.png" alt="My Linked In Profile"></a>
-								</li>
-								<li>
-									<a href="https://github.com/CoreyStagner"><img class="icon" src="assets/images/github.png" alt="My GitHub Profile"></a>	
-								</li>
-								<li>
-									<a href="https://stackexchange.com/users/10807766/corey-stagner"><img class="icon" src="assets/images/stackOverflow.png" alt="My Stack Overflow Profile"></a>
-								</li>
-							</ul>
-						</div>
-						<div class="col-lg"></div>
-					</div>
-				</div>
-			</section>
+				</section>
+			</div>
 		</div>
 	</body>
 </html>

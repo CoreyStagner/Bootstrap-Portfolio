@@ -6,16 +6,25 @@ body{
 	background-image: url("../images/background.png");
 }
 
-div{
-	border: 1px black solid;
+.div-bg-white{
+	background-color: white;
 }
 
-#bioDiv{
-	align-items: center;
+.row-heading{
+	background-color: #222222;
+	color: white;
+}
+
+.row-text{
+	font-size: 17px;	
 }
 
 #jumbotron{
 	width: 100%;
+}
+
+#InputMessage{
+	height: 150px;
 }
 
 .headshot{
@@ -40,6 +49,42 @@ div{
 	padding-right: 10px;
 }
 
-.section-heading {
+.border{
+	border: #222222 2px solid;
+}
+
+.fall-right{
+	float: right
+}
+
+.portImage{
+	width: 279px;
+	height: 210px;
+}
+
+@media screen and (min-width: 1px) {
+	.div-bg-white{
+		padding-top: 15px;
+		padding-bottom: 5px;
+	}
+
+	.portImage{
+		width: 399px;
+		height: 300px;
+	}
+
+	.jumbotron{
+		margin-top: 70px;
+	}
+}
+
+@media screen and (min-width: 641px) {
 	
+}
+
+@media screen and (min-width: 769px) {
+	.portImage{
+	width: 279px;
+	height: 210px;
+}
 }
