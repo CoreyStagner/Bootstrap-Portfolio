@@ -1,2 +1,2 @@
 # Bootstrap-Portfolio
-Creates a portfolio using Bootstrap
+Create a portfolio using Bootstrap
